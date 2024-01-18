@@ -7,7 +7,7 @@ def make_sidebar(df):
     """ Esta função cria a sidebar"""
     st.header("Marketplace - Visão Empresa")
 
-    image = Image.open("logo.jpg")
+    image = Image.open("./img/logo.jpg")
     st.sidebar.image(image, width=120)
 
     st.sidebar.markdown("# Cury Company")
